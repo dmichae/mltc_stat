@@ -1,7 +1,5 @@
-**BPWK1-Appendix
-
-**************************************
-****************Task A****************
+//1.Which risk factors are associated with living with MLTCs among older adults living in England?
+**Risk Factors: sex, ethnicity, wealth, cohabitation, smoking, alcohol, phys_act, age (agec), bmi (bmic)
 **************************************
 use "filepath\taskA.dta", clear
 
@@ -51,8 +49,6 @@ gen bmic = bmi - 27
 label variable bmic "BMI centered at 27 kg/m2"
 label value bmic bmic 
 
-//1.Which risk factors are associated with living with MLTCs among older adults living in England?
-**Risk Factors: sex, ethnicity, wealth, cohabitation, smoking, alcohol, phys_act, age (agec), bmi (bmic)
 
 **Collinearity
 corr sex age ethnicity wealth cohabitation smoking alcohol phys_act bmi 
