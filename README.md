@@ -12,23 +12,16 @@ TaskA.dta is a nationally representative sample of adults aged 50 and over livin
 TaskB.dta was obtained from a longitudinal study between June 2008 and July 2009. It comprises data from 1,989 participants who were asked to complete a baseline questionnaire collecting data on long-term conditions, sociodemographic variables, and health behavior variables. Follow-up interviews were carried out annually to check for any new long-term conditions. Once a participant reported two conditions, they were classified as having MLTCs. Participants who did not develop MLTCs were censored at the end of the follow-up period on 15th May 2015.
 
 # Analysis and Report Guidelines
-The analysis and report for this project should include the following sections:
+The analysis and report for this includes the following sections:
 
-Descriptive Presentation: Overview of the dataset, including descriptive statistics and visualizations of the variables.
-
-Univariate Associations: Investigation of univariate associations between all variables of interest and the development of MLTCs.
-
-Model Building: Build a final model that includes all relevant variables for predicting time to MLTCs, providing statistical justifications for the choice of variables.
-
-Assumption Checking: Check the assumptions of the chosen model.
-
-Outcome Regression Model: A simple linear regression model is used to estimate the relationship between unhealthy behaviors and the time to develop MLTCs.
-
-Inverse Probability Weighting (IPW): Use IPW to adjust for baseline confounders and estimate the relationship between smoking cessation and BMI change.
-
-G-Formula: Estimate the BMI change after 5 years if a) no one had quit smoking and b) all individuals had quit smoking. This will give the average causal effect of smoking cessation on BMI change after 5 years.
-
-Interpretation of Results: The findings are presented in layman's language for easy understanding.
+1. Descriptive Presentation: Overview of the dataset, including descriptive statistics and visualizations of the variables.
+2. Univariate Associations: Investigation of univariate associations between all variables of interest and the development of MLTCs.
+3. Model Building: Build a final model that includes all relevant variables for predicting time to MLTCs, providing statistical justifications for the choice of variables.
+4. Assumption Checking: Check the assumptions of the chosen model.
+5. Outcome Regression Model: A simple linear regression model estimates the relationship between unhealthy behaviors and the time to develop MLTCs.
+6. Inverse Probability Weighting (IPW): Use IPW to adjust for baseline confounders and estimate the relationship between smoking cessation and BMI change.
+7. G-Formula: Estimate the BMI change after 5 years if a) no one had quit smoking and b) all individuals had quit smoking. This will give the average causal effect of smoking cessation on BMI change after 5 years.
+8. Interpretation of Results: The findings are presented in layman's language for easy understanding.
 
 # Usage
 - Ensure that statistical software can process ".dta" files, such as Stata or R, with the appropriate libraries installed.
