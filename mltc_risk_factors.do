@@ -1,4 +1,4 @@
-//1.Which risk factors are associated with living with MLTCs among older adults living in England?
+//Which risk factors are associated with living with MLTCs among older adults living in England?
 **Risk Factors: sex, ethnicity, wealth, cohabitation, smoking, alcohol, phys_act, age (agec), bmi (bmic)
 **************************************
 use "filepath\taskA.dta", clear
